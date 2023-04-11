@@ -13,8 +13,8 @@ func main() {
 		numeros = append(numeros, inp)
 		i++
 	}
-	mult := numeros[0] * numeros[1] * numeros[2] * numeros[3] * numeros[4]
+	sum := numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4]
 	fmt.Println(numeros)
-	fmt.Println("a multiplicação dos numeros é : ", mult)
+	fmt.Println("a soma dos numeros é : ", sum)
 
 }
